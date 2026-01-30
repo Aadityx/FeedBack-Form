@@ -72,6 +72,12 @@ body {
   border-bottom-color: #6a5acd;
 }
 
+.button-group{
+      display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
 button {
   width: 100%;
   padding: 12px;
@@ -81,6 +87,7 @@ button {
   color: #fff;
   font-size: 15px;
   cursor: pointer;
+  
 }
 
 button:hover {
