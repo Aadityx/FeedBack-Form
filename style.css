@@ -22,6 +22,8 @@ body {
   width: 360px;
   padding: 40px 30px;
   border-radius: 12px;
+  margin-top:50px ;
+  margin-bottom: 50px;
   
 }
 
@@ -74,13 +76,9 @@ body {
 }
 
 .button-group{
-      display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-}
-
-button {
-  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  width: auto;
   padding: 12px;
   border: none;
   border-radius: 6px;
@@ -88,8 +86,15 @@ button {
   color: #fff;
   font-size: 15px;
   cursor: pointer;
-  
 }
+
+
+#buttonclass{
+  display: flex;
+  justify-content: space-around;
+
+}
+
 
 button:hover {
   opacity: 0.95;
