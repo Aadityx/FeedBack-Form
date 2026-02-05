@@ -20,19 +20,41 @@
         </div>
 
         <div class="input-group">
-          <textarea rows="4" ></textarea>
-          <label>How was your experience with this product?</label>
+         <label>How was your experience with this product?</label>
+            <select required>
+                <option value="">Select</option>
+                <option>Excellent</option>
+                <option>Good</option>
+                <option>Average</option>
+                <option>Poor</option>
+            </select>
         </div>
 
-        <div class="input-group">
-          <input type="text"  />
-          <label>How long have you been using this product?</label>
-        </div>
+        <div class="rating-group">
+  <label class="rating-question">Overall, how would you rate the product?</label>
+  <div class="rating-scale">
+    <span class="scale-text">Worst</span>
 
-        <div class="input-group">
-          <textarea rows="4" ></textarea>
-          <label>What did you like the most about this product?</label>
-        </div>
+    <div class="ratings">
+      <input type="radio" id="rate1" name="rating">
+      <label for="rate1">1</label>
+
+      <input type="radio" id="rate2" name="rating">
+      <label for="rate2">2</label>
+
+      <input type="radio" id="rate3" name="rating">
+      <label for="rate3">3</label>
+
+      <input type="radio" id="rate4" name="rating">
+      <label for="rate4">4</label>
+
+      <input type="radio" id="rate5" name="rating">
+      <label for="rate5">5</label>
+    </div>
+
+    <span class="scale-text">Best</span>
+  </div>
+</div>
 
         <div class="input-group">
           <textarea rows="4" ></textarea>
@@ -40,8 +62,13 @@
         </div>
 
         <div class="input-group">
-          <input type="text"  />
           <label>Would you recomment this product to your known ones?</label>
+            <select required>
+                <option value="">Select</option>
+                <option>Yes</option>
+                <option>No</option>
+                <option>Maybe</option>
+            </select>
         </div>
         <div id="buttonclass">
           <a href="./basic_info.html" class="button-group" style="width: 40%; ">Back</a>
