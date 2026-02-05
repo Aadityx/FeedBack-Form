@@ -13,71 +13,76 @@
       <h2>Feedback</h2>
 
       <form>
+        <!-- Product Name -->
         <div class="input-group">
-          <input type="text"  />
-          <label>Name of Product
-          </label>
+          <label>Name of Product</label>
+          <input type="text" placeholder="Enter product name" required />
         </div>
 
+        <!-- Experience -->
         <div class="input-group">
-         <label>How was your experience with this product?</label>
-            <select required>
-                <option value="">Select</option>
-                <option>Excellent</option>
-                <option>Good</option>
-                <option>Average</option>
-                <option>Poor</option>
-            </select>
+          <label>How was your experience with this product?</label>
+          <select required>
+            <option value="">Select</option>
+            <option>Excellent</option>
+            <option>Good</option>
+            <option>Average</option>
+            <option>Poor</option>
+          </select>
         </div>
 
+        <!-- Rating -->
         <div class="rating-group">
-  <label class="rating-question">Overall, how would you rate the product?</label>
-  <div class="rating-scale">
-    <span class="scale-text">Worst</span>
+          <label class="rating-question">
+            Overall, how would you rate the product?
+          </label>
 
-    <div class="ratings">
-      <input type="radio" id="rate1" name="rating">
-      <label for="rate1">1</label>
+          <div class="rating-scale">
+            <span class="scale-text">Worst</span>
 
-      <input type="radio" id="rate2" name="rating">
-      <label for="rate2">2</label>
+            <div class="ratings">
+              <input type="radio" id="rate1" name="rating">
+              <label for="rate1">1</label>
 
-      <input type="radio" id="rate3" name="rating">
-      <label for="rate3">3</label>
+              <input type="radio" id="rate2" name="rating">
+              <label for="rate2">2</label>
 
-      <input type="radio" id="rate4" name="rating">
-      <label for="rate4">4</label>
+              <input type="radio" id="rate3" name="rating">
+              <label for="rate3">3</label>
 
-      <input type="radio" id="rate5" name="rating">
-      <label for="rate5">5</label>
-    </div>
+              <input type="radio" id="rate4" name="rating">
+              <label for="rate4">4</label>
 
-    <span class="scale-text">Best</span>
-  </div>
-</div>
+              <input type="radio" id="rate5" name="rating">
+              <label for="rate5">5</label>
+            </div>
 
-
-        <div class="input-group">
-          <textarea rows="4" ></textarea>
-          <label>What would you like to change/upgrade in this product?</label>
+            <span class="scale-text">Best</span>
+          </div>
         </div>
 
+        <!-- Suggestions -->
         <div class="input-group">
-          <label>Would you recomment this product to your known ones?</label>
-            <select required>
-                <option value="">Select</option>
-                <option>Yes</option>
-                <option>No</option>
-                <option>Maybe</option>
-            </select>
+          <label>What would you like to change or upgrade?</label>
+          <textarea rows="4" placeholder="Your suggestions..."></textarea>
         </div>
+
+        <!-- Recommendation -->
+        <div class="input-group">
+          <label>Would you recommend this product to others?</label>
+          <select required>
+            <option value="">Select</option>
+            <option>Yes</option>
+            <option>No</option>
+            <option>Maybe</option>
+          </select>
+        </div>
+
+        <!-- Buttons -->
         <div id="buttonclass">
-          <a href="./basic_info.html" class="button-group" style="width: 40%; ">Back</a>
-
-          <a href="./response.html" class="button-group" style="width: 40%;">Submit</a>
+          <a href="./basic_info.html" class="button-group outline">Back</a>
+          <a href="./response.html" class="button-group">Submit</a>
         </div>
-       
-      
 
       </form>
     </div>

@@ -4,6 +4,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Feedback Form</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
@@ -13,27 +17,26 @@
       <h2>Product Feedback</h2>
       <p>
         This feedback form is regarding your product purchase from MarketX on Saturday, 20th January.
-        We would love to hear your thoughts, suggestions, concerns or problems with anything so we can improve!
-      </p>
-      <br>
+        We would love to hear your thoughts, suggestions, concerns or problems so we can improve!
+      </p><br>
+
       <form>
         <div class="input-group">
-          <input type="email"  />
           <label>Email</label>
+          <input type="email" required />
         </div>
 
         <div class="input-group">
-          <input type="text"  />
           <label>Name</label>
+          <input type="text" required />
         </div>
 
         <div class="input-group">
-          <input type="number"  />
-          <label>Product Id</label>
+          <label>Product ID</label>
+          <input type="number" required />
         </div>
 
-        <a href="./feedback.html" class="button-group">Save and Next</a>
-
+        <a href="./feedback.html" class="button-group">Save & Next</a>
       </form>
     </div>
   </div>
